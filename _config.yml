@@ -16,7 +16,7 @@
 title: Humming Bird
 email: devansh.m.kaushik@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-Welcome to my blog. I write mostly about C++ and Computer programming.
+  Welcome to my blog. I write mostly about C++ and Computer programming.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://dmk326.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: DevanshMKaushik
