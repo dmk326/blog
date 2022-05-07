@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to My Blog
 
-You can use the [editor on GitHub](https://github.com/dmk326/blog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am Devansh Mohan Kaushik. In this blog, I write about C++ and other programming paradigms. I have been working in Software development since 2013, the majority of which has been in C++. Currently, I am working as a Senior Software Developer @ Adobe. C++ has never ceased to amaze me and, I have learned a great deal from it. I Intend to keep on learning more about this wonderful thing i.e. C++. My love for C++ is the main reason for starting this blog where I wish to share my knowledge and receive more from other like-minded people in the field of C++ and programming. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repo is Intend to maintain and collaborate on github paes about the same.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmk326/blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I refered Following tutorials for github pages:
+1. [GitHub Pages and Jekyll by Bill Raymond](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
+2. [GitHub Learning Lab course bot](https://github.com/dmk326/github-pages-with-jekyll)
