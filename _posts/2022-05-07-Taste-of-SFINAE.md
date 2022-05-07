@@ -178,7 +178,7 @@ This way like floating_point example, SFINAE will come into picture and compiler
 
 The problem with SFINAE is that it is very easy to get confused on what's actually happening in the code if you already do not know and the errors are also not that exactly straight forward either. The syntax and declaration for SFINAE to work properly with templates can also be quite challenging at times and the level of complexity grows with the advancing code base.
 
-Concepts covered are in the blog post are in respect with C++ 14 but With C++ 20, the standard has rolled out many more exciting features like [**concepts** and **requires**](https://en.cppreference.com/w/cpp/language/constraints#Concepts) which would probably make it easier to work with templates and SFINAE. We shall cover these in near future, Stay Tunned.	
+Concepts covered are in the blog post are in respect with C++14 but with C++20, the standard has rolled out many more exciting features like [**concepts** and **requires**](https://en.cppreference.com/w/cpp/language/constraints#Concepts) which would probably make it easier to work with templates and SFINAE. We shall cover these in near future, Stay Tunned.	
 
 **Thanks for Reading!\
 DMK**
