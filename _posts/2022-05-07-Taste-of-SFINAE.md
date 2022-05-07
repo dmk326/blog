@@ -186,7 +186,6 @@ DMK**
 
 ### References:
 1. Great Talk by **Arthur O'Dwyer** on SFINAE, covering subject in details in this [video of CppCon](https://www.youtube.com/watch?v=ybaE9qlhHvw){:target="_blank"} 
-2. The floating_point example is taken from this [YouTube Video by Jason Turner](https://www.youtube.com/watch?v=dR64GQb4AGo) {:target="_blank"} 
-dfs has the 
+2. The floating_point example is taken from this [YouTube Video by Jason Turner](https://www.youtube.com/watch?v=dR64GQb4AGo){:target="_blank"} 
 3. Another good video on SFINAE on [YouTube Channel WolfSound](https://www.youtube.com/watch?v=mNxAqLVIaW0){:target="_blank"}
 4. Good [Blog](https://www.cppstories.com/2016/02/notes-on-c-sfinae/){:target="_blank"} about **SFINAE**
