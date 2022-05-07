@@ -92,9 +92,9 @@ Now the program will compile just fine.
 
 What's happening here is that for call `add(1,2)` compiler tries to call the first declaration of function i.e. for floating point types but since that condition is not matched there is substitution failure but it was not an error as the compiler than tries to find any other viable functions which it can call and it is able to find that successfully for the second declaration of add which is for non-floating point types.
 
-In simpler terms compiler tries to perform a name lookup and for function templates the template argument values are deduced from the types of the actual arguments passed. Then all occurrences of the template parameter are substituted with those deduced types. When this process leads to invalid type (like integer types for floating_point type method) the particular function is removed from the overload resolution set and compiler moves on to look for another function in the overload set without throwing an error unless no other function is found in the overload set for this substitution. This is what we call [**SFINAE**](https://en.cppreference.com/w/cpp/language/sfinae).
+In simpler terms compiler tries to perform a name lookup and for function templates the template argument values are deduced from the types of the actual arguments passed. Then all occurrences of the template parameter are substituted with those deduced types. When this process leads to invalid type (like integer types for floating_point type method) the particular function is removed from the overload resolution set and compiler moves on to look for another function in the overload set without throwing an error unless no other function is found in the overload set for this substitution. This is what we call [**SFINAE**](https://en.cppreference.com/w/cpp/language/sfinae){:target="_blank"}.
 
-As stated in cpp reference [SFINAE](https://en.cppreference.com/w/cpp/language/sfinae): "_This rule applies during overload resolution of function templates: When [substituting](https://en.cppreference.com/w/cpp/language/function_template#Template_argument_substitution "cpp/language/function template") the explicitly specified or [deduced type](https://en.cppreference.com/w/cpp/language/template_argument_deduction "cpp/language/template argument deduction") for the template parameter fails, the specialization is discarded from the [overload set](https://en.cppreference.com/w/cpp/language/overload_resolution "cpp/language/overload resolution") instead of causing a compile error._"
+As stated in cpp reference [SFINAE](https://en.cppreference.com/w/cpp/language/sfinae){:target="_blank"}: "_This rule applies during overload resolution of function templates: When [substituting](https://en.cppreference.com/w/cpp/language/function_template#Template_argument_substitution "cpp/language/function template"){:target="_blank"} the explicitly specified or [deduced type](https://en.cppreference.com/w/cpp/language/template_argument_deduction "cpp/language/template argument deduction"){:target="_blank"} for the template parameter fails, the specialization is discarded from the [overload set](https://en.cppreference.com/w/cpp/language/overload_resolution "cpp/language/overload resolution"){:target="_blank"} instead of causing a compile error._"
 
 Let's look at another example:
 
@@ -178,14 +178,14 @@ This way like floating_point example, SFINAE will come into picture and compiler
 
 The problem with SFINAE is that it is very easy to get confused on what's actually happening in the code if you already do not know and the errors are also not that exactly straight forward either. The syntax and declaration for SFINAE to work properly with templates can also be quite challenging at times and the level of complexity grows with the advancing code base.
 
-Concepts covered are in the blog post are in respect with C++14 but with C++20, the standard has rolled out many more exciting features like [**concepts** and **requires**](https://en.cppreference.com/w/cpp/language/constraints#Concepts) which would probably make it easier to work with templates and SFINAE. We shall cover these in near future, Stay Tunned.	
+Concepts covered are in the blog post are in respect with C++14 but with C++20, the standard has rolled out many more exciting features like [**concepts** and **requires**](https://en.cppreference.com/w/cpp/language/constraints#Concepts){:target="_blank"} which would probably make it easier to work with templates and SFINAE. We shall cover these in near future, Stay Tunned.	
 
 **Thanks for Reading!\
 DMK**
 
 
 ### References:
-1. Great Talk by **Arthur O'Dwyer** on SFINAE, covering subject in details in this [video of CppCon](https://www.youtube.com/watch?v=ybaE9qlhHvw) 
-2. For floating point example and other advance features related to SFINAE in C++ 20 refer this [YouTube Video by Jason Turner](https://www.youtube.com/watch?v=dR64GQb4AGo) 
-3. Another good video on SFINAE on [YouTube Channel WolfSound](https://www.youtube.com/watch?v=mNxAqLVIaW0)
-4. Good [Blog](https://www.cppstories.com/2016/02/notes-on-c-sfinae/) about SFINAE
+1. Great Talk by **Arthur O'Dwyer** on SFINAE, covering subject in details in this [video of CppCon](https://www.youtube.com/watch?v=ybaE9qlhHvw){:target="_blank"} 
+2. For floating point example and other advance features related to SFINAE in C++ 20 refer this [YouTube Video by Jason Turner](https://www.youtube.com/watch?v=dR64GQb4AGo){:target="_blank"} 
+3. Another good video on SFINAE on [YouTube Channel WolfSound](https://www.youtube.com/watch?v=mNxAqLVIaW0){:target="_blank"}
+4. Good [Blog](https://www.cppstories.com/2016/02/notes-on-c-sfinae/){:target="_blank"} about SFINAE
