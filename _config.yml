@@ -21,6 +21,8 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://dmk326.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: DevanshMKaushik
 github_username:  dmk326
+# not used by default by minimma
+author: Devansh Mohan Kaushik
 
 # Build settings
 markdown: kramdown
