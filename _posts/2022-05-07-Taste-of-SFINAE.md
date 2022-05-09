@@ -7,8 +7,8 @@ categories: jekyll update
 
 # **Substitution Failure Is Not An Error --- SFINAE**
 
-In the world of template meta-programming, we have the power to do a lot. Let’s take a small example.
-Say we want to perform “+” operation on two values, without templates metaprogramming we would probably write the following overloads for all types ourselves something like:
+In the world of template meta-programming, we have the power to do a lot. Let’s take a small example,
+say we want to perform “+” operation on two values, without templates metaprogramming we would probably write the following overloads for all types ourselves something like:
 
 ```
 int add(int value1,  int value2)  {
