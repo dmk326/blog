@@ -114,7 +114,7 @@ We have two classes, one which is derived from the base and has a private destru
 ```
 //derive from base. Has dtor private and implement release
 class derived:  public base {
-public:
+private:
     ~derived() override  =  default;
 public:
 derived()  =  default;
