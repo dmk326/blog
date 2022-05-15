@@ -14,6 +14,10 @@ gem "jekyll", "~> 3.9.2"
 # removed minima theme as we have now imported files inside project i.e. regular theme
 # gem "minima", "~> 2.0"
 
+# install ew theme, doc: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+gem "minimal-mistakes-jekyll"
+gem "jekyll-remote-theme"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
