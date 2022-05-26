@@ -4,6 +4,7 @@ I am Devansh Mohan Kaushik. In this blog, I write about C++ and other programmin
 
 This repo is intended to maintain and collaborate on GitHub Pages about the same.
 
-I referred following tutorials for GitHub Pages & Jekyll:
-1. [GitHub Pages and Jekyll by Bill Raymond](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
-2. [GitHub Learning Lab course bot](https://github.com/dmk326/github-pages-with-jekyll)
+I referred following tutorials for GitHub Pages, theme & Jekyll:
+1. Theme used is [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+2. [GitHub Pages and Jekyll by Bill Raymond](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
+3. [GitHub Learning Lab course bot](https://github.com/dmk326/github-pages-with-jekyll)
